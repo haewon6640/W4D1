@@ -89,6 +89,9 @@ describe TicTacToeNode do
     end
 
     let(:cats) do
+      # x o x
+      # o x o
+      # o x o
       node = TicTacToeNode.new(Board.new, :o)
       node.board[[0, 0]] = :x
       node.board[[0, 1]] = :o
